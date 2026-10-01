@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sertão Inteligente - AgroTech com IA</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #0f172a; color: #f1f5f9; line-height: 1.6; }
+        
+        /* Cabeçalho Tecnológico/Agrícola */
+        header { background: linear-gradient(135deg, #15803d, #166534); padding: 80px 20px; text-align: center; border-bottom: 4px solid #22c55e; position: relative; }
+        header::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 6px; background: linear-gradient(90deg, #22c55e, #eab308); }
+        header h1 { font-size: 3.2rem; font-weight: 800; text-shadow: 0 4px 8px rgba(0,0,0,0.4); margin-bottom: 15px; }
+        header h1 span { color: #22c55e; }
+        header p { font-size: 1.3rem; max-width: 700px; margin: 0 auto; opacity: 0.95; font-weight: 300; }
+        
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        
+        /* Cartões do Projeto */
+        .card { background: #1e293b; padding: 35px; border-radius: 16px; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.3); margin-bottom: 40px; border: 1px solid #334155; }
+        .card h2 { color: #22c55e; margin-bottom: 20px; font-size: 1.8rem; display: flex; align-items: center; gap: 10px; }
+        
+        /* Grid de Como Funciona */
+        .grid-passos { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px; }
+        .passo-item { background: #0f172a; padding: 25px; border-radius: 12px; border: 1px solid #1e293b; transition: all 0.3s ease; }
+        .passo-item:hover { transform: translateY(-5px); border-color: #22c55e; }
+        .passo-item h3 { color: #eab308; margin-bottom: 10px; font-size: 1.3rem; }
+        
+        /* Botão de Demonstração */
+        .cta-box { text-align: center; background: linear-gradient(135deg, #1e293b, #0f172a); border: 2px dashed #22c55e; padding: 40px; border-radius: 16px; margin-top: 20px; }
+        .btn-ia { display: inline-block; background-color: #22c55e; color: #0f172a; text-decoration: none; padding: 16px 32px; text-align: center; border-radius: 30px; font-weight: bold; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 14px rgba(34, 197, 94, 0.4); }
+        .btn-ia:hover { background-color: #16a34a; color: white; transform: scale(1.05); }
+        
+        footer { text-align: center; padding: 40px 20px; color: #64748b; font-size: 0.9rem; border-top: 1px solid #1e293b; margin-top: 60px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sertão <span>Inteligente</span></h1>
+        <p>Acelerando a agricultura familiar no Pajeú através de Inteligência Artificial e diagnósticos rápidos na palma da mão.</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="card">
+            <h2>🌱 O Problema e a Solução</h2>
+            <p>No Sertão de Pernambuco, a perda de lavouras por pragas silenciosas ou falta de manejo técnico correto afeta milhares de famílias. A <strong>Sertão Inteligente</strong> traz a tecnologia das grandes multinacionais agrícolas para o pequeno produtor. Nosso sistema analisa a saúde das folhas e culturas locais em segundos, entregando diagnósticos precisos e recomendações sustentáveis.</p>
+        </div>
+
+        <div class="card">
+            <h2>💡 Como a Nossa Startup Funciona?</h2>
+            <div class="grid-passos">
+                <div class="feature-item passo-item">
+                    <h3>📸 1. Captura de Foto</h3>
+                    <p>O agricultor abre o aplicativo e tira uma foto da folha, do fruto ou do solo que apresenta problemas, mesmo sem internet no campo.</p>
+                </div>
+                <div class="feature-item passo-item">
+                    <h3>🧠 2. Análise da IA</h3>
+                    <p>Nossos algoritmos, treinados com dados da Embrapa e do IPA, identificam padrões visuais de pragas, fungos ou estresse hídrico.</p>
+                </div>
+                <div class="feature-item passo-item">
+                    <h3>✅ 3. Receita Ecológica</h3>
+                    <p>O produtor recebe uma solução imediata em áudio ou texto, indicando defensivos orgânicos e técnicas corretas de irrigação.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-box">
+            <h2 style="color: white; margin-bottom: 15px;">Apresentação Prática no HUB INOVA</h2>
+            <p style="margin-bottom: 20px; color: #94a3b8;">Clique abaixo para simular o upload de uma folha doente e testar a nossa Inteligência Artificial!</p>
+            <a href="https://wa.me." target="_blank" class="btn-ia">🤖 Simular Diagnóstico da IA</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Sertão Inteligente. Projeto AgroTech - HUB INOVA ST SENAC / Serra Talhada - PE.</p>
+    </footer>
+
+</body>
+</html>
